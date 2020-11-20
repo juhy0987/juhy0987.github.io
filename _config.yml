@@ -11,26 +11,26 @@ hero-title: Juhy_'s Site
 hero-description: My private site of projects. 
 
 # Author - Creator
-author-name: Ben Campbell
+author-name: Juhyeon Kim
 author-image: 10.jpg
-about-author: My name is Ben Campbell. I'm an actor and a musician. Retro wolf banjo succulen tsgoch ujang tumeric hammock offal.
-author-email: help.example@gmail.com
+about-author: 안녕하세요 김주현 학생입니다.
+author-email: juhy0987@naver.com
 author-twitter: https://twitter.com/
 author-facebook: https://twitter.com/
 author-instagram: https://www.instagram.com/
 author-pinterest: https://pinterest.com/
 
 # Other Authors - here you can add Other authors. For example Natali_Braxton
-authors:
-  Natali_Braxton:
-    author-name: Natali Braxton
-    author-image: 111.jpg
-    about-author: My name is Natali Braxton. I love walking, I play the guitar in my spare time. And also write articles about different technologies.
-    author-email: natali.example@gmail.com
-    author-twitter: https://twitter.com/
-    author-facebook: https://twitter.com/
-    author-instagram: https://www.instagram.com/
-    author-pinterest: https://pinterest.com/
+#authors:
+#  Natali_Braxton:
+#    author-name: Natali Braxton
+#    author-image: 111.jpg
+#    about-author: My name is Natali Braxton. I love walking, I play the guitar in my spare time. And also write articles about different technologies.
+#    author-email: natali.example@gmail.com
+#    author-twitter: https://twitter.com/
+#    author-facebook: https://twitter.com/
+#    author-instagram: https://www.instagram.com/
+#    author-pinterest: https://pinterest.com/
 
 # Social Media Links (Links are located in hero and footer)
 twitter: https://twitter.com/
