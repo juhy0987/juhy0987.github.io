@@ -1,1 +1,1 @@
-juhyuni.githib.io
+juhyuni.github.io
