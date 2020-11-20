@@ -1,46 +1,79 @@
-title: Link #博客标题
-description: Just 4 Fun. #博客描述
-keywords: blog,css,html,php #博客关键字
-author: "Link"
+# Site settings
+title: Juhyuni
+remote-theme: artemsheludko/lokmont
+description: My Private Site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://juhyuni.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
-#title hide and show
-hide: (つェ⊂)我藏好啦
-show: ´∇｀ 呀被发现啦~ 
+# Banner Section
+hero: 112.jpg
+hero-title: The Gr. Site
+hero-description: My projects are available.
 
-remote_theme: link9596/hydrogen
-baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
-url: "juhyuni.github.io" # change this to the base hostname & protocol for your site
-buildtime: "1514736000" #博客建立时的时间戳 可进入https://tool.lu/timestamp/将博客建立时的日期转换成时间戳
-           #The timestamp at the time of blog establishment can be entered at https://tool.lu/timestamp/to convert the date at the time of blog establishment into a timestamp.
+# Author - Creator
+author-name: Ben Campbell
+author-image: 10.jpg
+about-author: My name is Ben Campbell. I'm an actor and a musician. Retro wolf banjo succulen tsgoch ujang tumeric hammock offal.
+author-email: help.example@gmail.com
+author-twitter: https://twitter.com/
+author-facebook: https://twitter.com/
+author-instagram: https://www.instagram.com/
+author-pinterest: https://pinterest.com/
 
-PJAX: true #启用PJAX，会与评论系统冲突（如不用评论系统建议开启）
+# Other Authors - here you can add Other authors. For example Natali_Braxton
+authors:
+  Natali_Braxton:
+    author-name: Natali Braxton
+    author-image: 111.jpg
+    about-author: My name is Natali Braxton. I love walking, I play the guitar in my spare time. And also write articles about different technologies.
+    author-email: natali.example@gmail.com
+    author-twitter: https://twitter.com/
+    author-facebook: https://twitter.com/
+    author-instagram: https://www.instagram.com/
+    author-pinterest: https://pinterest.com/
 
-paginate: 8 #同时显示的最大文章数，超过自动分页
-paginate_path: "page:num"
+# Social Media Links (Links are located in hero and footer)
+twitter: https://twitter.com/
+facebook: https://facebook.com/
+google-plus: https://plus.google.com/
+instagram: https://www.instagram.com/
+pinterest: https://pinterest.com/
+youtube: https://www.youtube.com/
 
-background: https://api.dujin.org/bing/1920.php
-theme_color: 546E7A
+# Contact Form Settings
+contact-subtitle: Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Kogi cornhole enamel. # Title for the subscription form.
 
-# hydrogen-blog date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-hydrogen-blog:
-  date_format: "%b %-d, %Y"
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
 
-#MathJax switch
-MathJax: false
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 
-#install emoji
+# Comment Section (Disqus)
+disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+paginate: 9
+paginate_path: "/page/:num"
+
+# Pages path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
 plugins:
-  - jemoji
+  - jekyll-paginate
+  - jekyll-feed
 
-# social account
-image:
-twitter:
-  username:
-#  site:
-facebook:
-  #publisher: null
-  #profile_id: null
-  app_id: null
-  #authors: null
-#  admins:
+include:
+  - _pages
+
+# Exclude from processing.
+exclude:
+ - Gemfile
+ - Gemfile.lock
+ - vendor
